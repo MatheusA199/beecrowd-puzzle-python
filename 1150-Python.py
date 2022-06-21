@@ -20,3 +20,4 @@ while True:
 print(len(num))
 
 #testanto o github
+#Entendendo como isso funciona
