@@ -11,7 +11,7 @@ numero_fazenda = 0
 tamanho = len(ovelhas) - 1
 total_final = 0
 
-#função
+#funções
 def roubar_ovelha():
 	ovelhas[numero_fazenda] = ovelhas[numero_fazenda] - 1
 
