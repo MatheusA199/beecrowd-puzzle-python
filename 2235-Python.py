@@ -3,6 +3,7 @@ class ViagemNoTempo:
         self._credito1 = credito1
         self._credito2 = credito2
         self._credito3 = credito3
+
     def validacoes(self):
         var1 = self._credito1 == self._credito2
         var2 = self._credito1 == self._credito3
@@ -10,6 +11,7 @@ class ViagemNoTempo:
         var4 = (self._credito1 + self._credito2 - self._credito3) == 0
         var5 = (self._credito1 + self._credito3 - self._credito2) == 0
         var6 = (self._credito2 + self._credito3 - self._credito1) == 0
+        
         if (var1) or (var2) or (var3) or (var4) or (var5) or (var6):
             return 'S'
         
