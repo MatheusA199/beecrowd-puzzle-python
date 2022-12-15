@@ -57,8 +57,7 @@ class OperationGame:
             return 'None Shall Pass!'
 
         else:
-            nome_alfa = self.nomes_erraram
-            saida = ' '.join(nome_alfa[0:])
+            saida = ' '.join(self.nomes_erraram[0:])
             return saida
 
 def jogo_do_operador():
